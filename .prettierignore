@@ -1,0 +1,12 @@
+dist
+node_modules
+coverage
+playwright-report
+test-results
+package-lock.json
+.wrangler
+
+# 手写文档（需求原文、背景材料、功能/素材拆分）保持人工排版，不参与 Prettier 重排
+AGENTS.md
+requirement.md
+docs/

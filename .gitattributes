@@ -1,0 +1,9 @@
+# 统一文本行尾为 LF，避免 Windows/macOS 协作时整文件 diff
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.m4a binary
+*.zip binary
+
+package-lock.json -diff linguist-generated=true

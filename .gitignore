@@ -1,0 +1,19 @@
+node_modules/
+dist/
+coverage/
+test-results/
+playwright-report/
+.wrangler/
+
+# 本地环境变量：本项目不配置任何密钥，此处仅防止误提交
+.env
+.env.*
+.dev.vars
+
+.DS_Store
+Thumbs.db
+*.local
+*.log
+*.tsbuildinfo
+.vscode/
+.idea/
